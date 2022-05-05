@@ -17,6 +17,8 @@
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-modal": "^3.15.1",
+    "react-toastify": "^9.0.1",
     "ts-node": "^10.7.0"
   },
   "devDependencies": {
