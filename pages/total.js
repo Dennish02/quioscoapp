@@ -31,7 +31,7 @@ export default function Total() {
                     value={nombre}
                     onChange={(e)=>setNombre(e.target.value)}
                     type='text'
-                    className="bg-gray-200 w-full lg:w-1/3 mt-3 rounded-md"
+                    className="bg-gray-200 w-full lg:w-1/3 mt-3 rounded-md p-3"
                     />
                 </div>
                 <div className="mt-10">

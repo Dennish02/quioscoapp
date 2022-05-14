@@ -7,7 +7,7 @@ const Producto = ({producto}) => {
 
   const { nombre, imagen, precio } = producto
   return (
-    <div className='border p-3'>
+    <div className='border p-3 '>
         <Image 
           src={`/assets/img/${imagen}.jpg`} 
           alt={`Imagen Platillo ${nombre}`}
@@ -15,7 +15,10 @@ const Producto = ({producto}) => {
           height={500}
         />
         <div className='p-5'>
+          <div className='h-20'>
           <h3 className='text-2xl font-bold'>{nombre}</h3>
+          </div>
+         
           <p className='mt-5 font-black text-4xl text-amber-400'>
             {formatearDinero(precio)}
           </p>

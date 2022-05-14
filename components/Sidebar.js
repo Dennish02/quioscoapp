@@ -7,7 +7,7 @@ export default function Sidebar() {
     const {categorias}= useQuiosco();
 
   return (
-      <>
+      <div className='pt-3'>
           <Image
               width={300}
               height={100}
@@ -22,6 +22,6 @@ export default function Sidebar() {
             ))}
         </nav>
 
-      </>
+      </div>
   )
 }

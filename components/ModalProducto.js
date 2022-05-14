@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import Producto from './Producto';
+
 import useQuiosco from '../hooks/useQuiosco';
 import { formatearDinero } from '../helpers';
 
